@@ -91,6 +91,7 @@ header .profile-image:hover {
 
 .experience {
   padding: 5px;
+  margin-bottom: 10px;
 }
 
 .card {
@@ -106,6 +107,7 @@ header .profile-image:hover {
 
 .expcard {
   margin: 30px;
+  margin-top: 10px;
   max-width: 1000px;
   text-align: left;
   background: #fff;
