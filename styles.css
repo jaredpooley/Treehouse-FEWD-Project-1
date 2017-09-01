@@ -55,6 +55,8 @@ a:hover {
   color: white
 }
 
+/*Header Styles*/
+
 header {
   text-align: center;
   background: url('images/iceland.jpg') no-repeat top center ;
@@ -73,8 +75,11 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
+
+/*Dismiss Rotate, change scale and altered border-radius to aim for 'Exceeds Expectations'*/
+
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(0.8);
 }
 .tag {
   background-color: #efefef;
@@ -88,6 +93,8 @@ header .profile-image:hover {
   background-color: #222;
   color: white;
 }
+
+/*CSS for additional page - Experience.html. Must change .card style to suit*/
 
 .experience {
   padding: 5px;
@@ -108,17 +115,6 @@ header .profile-image:hover {
   color: #655c63;
 }
 
-.card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
-}
-
 .expcard {
   margin: 30px;
   margin-top: 10px;
@@ -131,11 +127,24 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-.card:hover {
+.expcard:hover {
   border-color: #ff99ff;
 }
 
-.expcard:hover {
+/*End CSS for additional page - Experience.html*/
+
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.card:hover {
   border-color: #ff99ff;
 }
 
