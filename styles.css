@@ -99,6 +99,11 @@ header .profile-image:hover {
   border-radius: 2%;
 }
 
+.devimg {
+  max-width: 300px;
+  border-radius: 2px;
+}
+
 .expcap {
   color: #655c63;
 }
