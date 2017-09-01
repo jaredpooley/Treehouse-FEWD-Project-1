@@ -94,6 +94,15 @@ header .profile-image:hover {
   margin-bottom: 10px;
 }
 
+.expimg {
+  max-width: 400px;
+  border-radius: 2%;
+}
+
+.expcap {
+  color: #655c63;
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
